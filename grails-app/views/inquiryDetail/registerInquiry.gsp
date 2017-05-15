@@ -34,8 +34,8 @@
     width: 100vw;
     height: 950px;
     background: #3a6186; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to left, #7593af, #9deece); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #87a1b7, #0d895d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color : #fff;
 }
 .contact-section{
@@ -83,7 +83,7 @@ textarea.form-control {
 <section id="contact">
     <div class="section-content">
         <h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with us</span></h1>
-        <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h3>
+        <h3>please fill up the following details</h3>
     </div>
     <div class="contact-section">
         <div class="container">
@@ -91,35 +91,39 @@ textarea.form-control {
                 <div class="col-md-6 form-line">
                     <div class="form-group">
                         <label for="exampleInputUsername">Your name</label>
-                        <input type="text" class="form-control" name="clientName" id="" placeholder=" Enter Name">
+                        <input type="text" class="form-control" name="clientName" id="" placeholder=" Enter Name" required>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail">Email Address</label>
-                        <input type="email" name="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+                        <input type="email" name="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id"required>
                     </div>
                     <div class="form-group">
                         <label for="telephone">Mobile No.</label>
-                        <input type="tel"  name="mobile" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no.">
+                        <input type="tel"  name="mobile" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telephone">Phone.</label>
+                        <input type="tel"  name="phone" class="form-control" id="phone" placeholder=" Enter phone number." required>
                     </div>
 
                     <div class="form-group">
                         <label for="peopleNumber">Number of People.</label>
-                        <input type="tel" name="peopleNumber" class="form-control" id="peopleNumber" placeholder=" Enter number of People">
+                        <input type="tel" name="peopleNumber" class="form-control" id="peopleNumber" placeholder=" Enter number of People"required>
                     </div>
 
                     <div class="form-group">
                         <label for="peopleNumber">Number of Days.</label>
-                        <input type="tel" class="form-control"  name="days" id="days" placeholder=" Enter number of Days">
+                        <input type="tel" class="form-control"  name="days" id="days" placeholder=" Enter number of Days"required>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for ="address"> Address</label>
-                        <input type="tel" class="form-control" name="address" id="address" placeholder="Enter Your Message"></>
+                        <input type="tel" class="form-control" name="address" id="address" placeholder="Enter Your Address"required>
                     </div>
                     <div class="form-group">
                         <label for ="destination"> Destination</label>
-                        <input type="tel" class="form-control" name="destination" id="destination" placeholder="Enter Your Destination"></>
+                        <input type="tel" class="form-control" name="destination" id="destination" placeholder="Enter Your Destination"required>
                     </div>
                     <div class="form-group">
                         <label for ="description"> Message</label>

@@ -9,6 +9,7 @@ class InquiryDetail {
     int peopleNumber
     int days
     String destination
+    boolean visibility=true
 
     static constraints = {
         phone nullable: true

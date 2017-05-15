@@ -43,7 +43,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 %{--<script src="js/jquery.vide.min.js"></script>--}%
 <asset:javascript src="jquery.vide.min.js"/>
 <!-- main -->
-<div data-vide-bg="video/Mykonos">
+<div data-vide-bg="assets/video/Mykonos.mp4">
     <div class="center-container">
         <div class="w3ls_banner_info">
             <h1>Travel Coming Soon</h1> <span> <g:link controller="inquiryDetail" action="registerInquiry"><button type="button" class="btn btn-success"> Inquiry</button> </g:link></span>
@@ -71,7 +71,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
         <!--footer-->
         <div class="footer-w3">
-            <p>&copy; 2017 Travel Coming Soon. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+            <p>&copy; 2017 Travel Coming Soon. All rights reserved | Design by Reban and Arjun</p>
         </div>
         <!--//footer-->
     </div>
