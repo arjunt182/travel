@@ -1,9 +1,11 @@
 package client
 
 import grails.converters.JSON
+import grails.plugin.springsecurity.annotation.Secured
 import javafx.scene.text.FontPosture
 
 class InquiryDetailController {
+    def springSecurityService
 
     def index() {}
 
@@ -19,6 +21,7 @@ class InquiryDetailController {
         redirect(action:'listInquiry')
     }
 
+    @Secured(['ROLE_ADMIN'])
     def listInquiry(){
 
         def inquiryDetail=InquiryDetail.findAllByVisibility(true)

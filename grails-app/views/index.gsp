@@ -46,6 +46,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div data-vide-bg="assets/video/Mykonos.mp4">
     <div class="center-container">
         <div class="w3ls_banner_info">
+            <div class="pull-right"><g:link controller="inquiryDetail" action="registerInquiry"><button type="button" class="btn btn-success"> Inquiry</button> </g:link></div>
+
             <h1>Travel Coming Soon</h1> <span> <g:link controller="inquiryDetail" action="registerInquiry"><button type="button" class="btn btn-success"> Inquiry</button> </g:link></span>
             <p>BE READY, WE ARE LAUNCHING SOON.</p>
             <!--timer-->
