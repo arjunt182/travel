@@ -43,10 +43,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 %{--<script src="js/jquery.vide.min.js"></script>--}%
 <asset:javascript src="jquery.vide.min.js"/>
 <!-- main -->
-<div data-vide-bg="assets/video/Mykonos.mp4">
+<div data-vide-bg="${grailsApplication.config.grails.serverURL}/static/video/Mykonos">
     <div class="center-container">
         <div class="w3ls_banner_info">
-            <div class="pull-right"><g:link controller="inquiryDetail" action="registerInquiry"><button type="button" class="btn btn-success"> Inquiry</button> </g:link></div>
+            <span ><g:link controller="inquiryDetail" action="listInquiry"><button type="button" class="btn btn-primary"> Login</button> </g:link></span>
 
             <h1>Travel Coming Soon</h1> <span> <g:link controller="inquiryDetail" action="registerInquiry"><button type="button" class="btn btn-success"> Inquiry</button> </g:link></span>
             <p>BE READY, WE ARE LAUNCHING SOON.</p>

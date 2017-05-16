@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     %{--<script src="myscripts.js"></script>--}%
-    <asset:stylesheet href="style.css" />
+    <asset:stylesheet href="styleLogin.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -51,7 +51,7 @@
                            <li><p class="no-match">Password and username don’t match</p></li>--}%
                     </ul>
                     <div class="text-center">
-                        <input type="submit" class="btn primary-bg colorwhite btn-login" value="Sign In">
+                        <input type="submit" class="btn primary-bg colorwhite btn-login" value="Sign In" style="background-color: #2e6da4">
                     </div>
                     %{--<p class="pw-forgot">Forgot Password?</p>--}%
                     <g:link  controller="login" action="forgot">Forgot Password?</g:link>

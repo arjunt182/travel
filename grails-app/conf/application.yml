@@ -24,6 +24,9 @@ endpoints:
     jmx:
         enabled: true
 
+server:
+    contextPath: /travel
+
 ---
 grails:
     mime:
@@ -97,6 +100,8 @@ dataSource:
 
 environments:
     development:
+        grails:
+            serverURL: http://localhost:8090/travel
         dataSource:
             dbCreate: update
             url: jdbc:mysql://localhost:3306/ttms?autoReconnect=true&useSSL=false
