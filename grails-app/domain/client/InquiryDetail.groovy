@@ -6,6 +6,7 @@ class InquiryDetail {
     String email
     String phone
     String mobile
+    Date date
     int peopleNumber
     int days
     String destination
